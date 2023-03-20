@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    display: flex;
+    /* padding-top: 48px; */
+    padding-top: 66px;
+    padding-bottom: 53px;
+}
+.about-right h3{
+    /* display: flex; */
+    font-weight: 700;
+    font-size: 34px;
+    color: #4e4039;
+    font-family: "Raleway", sans-serif;
+}
+.about-right p{
+    font-size: 15px;
+    color: #5a6570;
+}
+
+.about img{
+    width: 84%;
+    padding-left: 69px;
+}
+.about-right{
+    width: 76%;
+    padding-right: 88px;
+}

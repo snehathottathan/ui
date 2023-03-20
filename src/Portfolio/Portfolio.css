@@ -1,0 +1,88 @@
+.portfolio{
+    margin: auto;
+    align-items: center;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.portfolio .lists{
+  justify-content: center;
+  padding-bottom: 14px;
+    display: flex;
+}
+ul{
+    cursor: pointer;
+    margin: 0 15px 15px 0;
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #212529;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.prod{
+    width: 200px;
+    height: 200px;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom:20px ; */
+}
+.child{
+    margin: auto;
+    width: 83%;
+    position: relative;
+    height: 1026px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px; */
+   
+}
+.pri{
+    text-align: center;
+}
+.product1 .prod{
+    width: 300px;
+    height: 300px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    /* border: gray 9px solid; */
+    /* padding-top:20px ; */
+    /* padding-bottom: 20px; */
+    /* border-bottom: gray 40px solid; */
+    
+}
+.portfolio .lists{
+    padding: 0;
+    margin:auto;
+    list-style: none;
+    /* text-align: center; */
+}
+
+.section-title{
+    margin: auto;
+    text-align: center;
+}
+
+.portfolio .section-title h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 0;
+    line-height: 1px;
+    margin-bottom: 15px;
+    color: #c2b7b1;
+}
+.portfolio .section-title p{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #4e4039;
+}
