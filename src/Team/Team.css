@@ -1,0 +1,73 @@
+.team{
+    
+    margin: auto;
+    align-items: center;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.prods{
+    width: 180px;
+    height: 180px;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom:20px ; */
+}
+.product .prod{
+    width: 280px;
+    height: 280px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    /* border: gray 9px solid; */
+    /* padding-top:20px ; */
+    /* padding-bottom: 20px; */
+    /* border-bottom: gray 40px solid; */
+    
+}
+.childs{
+    margin: auto;
+    width: 90%;
+    position: relative;
+    /* height: 1026px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px; */
+   
+}
+.pri{
+    text-align: center;
+}
+.product1 .prod{
+    width: 300px;
+    height: 300px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    /* border: gray 9px solid; */
+    /* padding-top:20px ; */
+    /* padding-bottom: 20px; */
+    /* border-bottom: gray 40px solid; */
+    
+}
+
+.team .section-title h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 0;
+    line-height: 1px;
+    margin-bottom: 15px;
+    color: #c2b7b1;
+}
+.team .section-title p{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #4e4039;
+}

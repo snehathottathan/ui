@@ -1,0 +1,66 @@
+.banner{
+    display: flex;
+    /* background-image: url('https://bootstrapmade.com/demo/templates/Ninestars/assets/img/hero-img.svg');
+    background-size: cover;
+    width: 100%;
+    height: 500px; */
+    width: 100%;
+    height: 550px;
+    background: #fef8f5;
+    border-bottom: 2px solid #fcebe3;
+    /* margin: 72px 0 0px 0; */
+}
+.content{
+    /* width: 84%;
+    padding-top: 167px;
+    padding-left: 77px; */
+    width: 84%;
+    padding-top: 99px;
+    padding-left: 77px
+}
+.content 
+h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #4e4039;
+    font-family: "Raleway", sans-serif;
+}
+
+.content h2{
+    color: #a08f86;
+    margin: 15px 0 0 0;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+.description{
+    max-width: 50%;
+}
+
+.imgae{
+    width: 100%;
+    padding-right: 76px;
+    padding-top: 30px;
+}
+.content button{
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #eb5d1e;
+}
+.content a:link{
+text-decoration: none;
+color: white;
+}
+.content button:hover{
+    background-color:#ea6a33
+}
