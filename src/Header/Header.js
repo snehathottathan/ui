@@ -5,8 +5,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from 'react-router-dom'
+// import {Link} from 'react'
 import './Header.css'
 import Home from '../Home/Home';
+import About from '../About/About';
 function Header() {
   return (
     <div className='header'>
@@ -16,7 +18,7 @@ function Header() {
           <Navbar.Brand href="#home" style={{fontSize:'30px',letterSpacing:'2px',lineHeight:'1',fontWeight:'400',color: '#7a6960'}}>Ninestars</Navbar.Brand>
           <Nav className="mb-3">
             <Nav.Link href="#home"><Link to="/" style={{textDecoration:'none',color:'black'}}>Home</Link></Nav.Link>
-            <Nav.Link href="#features" style={{color:'black'}}>About Us</Nav.Link>
+            <Nav.Link href="#features"><Link spy={true} to={About} style={{textDecoration:'none',color:'black'}} activeClass='activeClass'> About Us</Link></Nav.Link>
             {/* <Nav.Link href="#pricing" style={{color:'black'}}>Faq</Nav.Link> */}
             <Nav.Link href="#pricing" style={{color:'black'}}>Services</Nav.Link>
             <Nav.Link href="#portfolio" style={{color:'black'}}>Portfolio</Nav.Link>
